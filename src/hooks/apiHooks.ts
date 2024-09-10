@@ -3,7 +3,7 @@ import { Credentials } from '@/types/LocalTypes';
 import { LoginResponse, UserResponse } from '@sharedTypes/MessageTypes';
 
 const useUser = () => {
-  // TODO: implement network functions for auth server user endpoints
+  // implement network functions for auth server user endpoints
   const getUserByToken = async (token: string) => {
     const options = {
       headers: {
